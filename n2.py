@@ -1,4 +1,4 @@
-def SG():
+def sg():
     a = []
     print("Введите количество элементов списка")
     while True:
@@ -90,7 +90,7 @@ while True:
         if choice not in [1,2,3,4]:
             print("Нужно ввести число, соотвествующее одному варианту из представленных. Повторите попытку.")
         elif choice == 1:
-            SG()
+            sg()
         elif choice == 2:
             ks()
         elif choice == 3:
